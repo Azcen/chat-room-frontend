@@ -10,7 +10,8 @@
     "apollo": "vue-cli-service apollo:dev --generate-schema",
     "apollo:schema:generate": "vue-cli-service apollo:schema:generate",
     "apollo:schema:publish": "vue-cli-service apollo:schema:publish",
-    "apollo:start": "vue-cli-service apollo:start"
+    "apollo:start": "vue-cli-service apollo:start",
+    "deploy": "sh deploy.sh"
   },
   "dependencies": {
     "@apollo/client": "^3.4.7",

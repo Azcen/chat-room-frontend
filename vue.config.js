@@ -5,4 +5,5 @@ module.exports = {
       enableEngine: false,
     },
   },
+  publicPath: process.env.NODE_ENV === "production" ? "/hello-world/" : "/",
 };

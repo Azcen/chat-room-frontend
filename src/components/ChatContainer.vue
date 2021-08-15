@@ -51,7 +51,7 @@ export default {
   methods: {
     ...mapActions(["sendMessage"]),
     send(payload) {
-      if(payload.content) {
+      if (payload.content) {
         this.sendMessage(payload);
         this.message = "";
         this.scrollToBottom();
