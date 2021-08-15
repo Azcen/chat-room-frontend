@@ -7,7 +7,7 @@ import { InMemoryCache } from "apollo-cache-inmemory";
 
 // Create the subscription websocket link
 const link = new WebSocketLink({
-  uri: "ws://azcen-chat-room.herokuapp.com/",
+  uri: "wss://azcen-chat-room.herokuapp.com/",
   options: {
     reconnect: true,
   },

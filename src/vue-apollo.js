@@ -28,7 +28,7 @@ const defaultOptions = {
   // You can use `wss` for secure connection (recommended in production)
   // Use `null` to disable subscriptions
   wsEndpoint:
-    process.env.VUE_APP_GRAPHQL_WS || "ws://azcen-chat-room.herokuapp.com/",
+    process.env.VUE_APP_GRAPHQL_WS || "wss://azcen-chat-room.herokuapp.com/",
   // LocalStorage token
   tokenName: AUTH_TOKEN,
   // Enable Automatic Query persisting with Apollo Engine
